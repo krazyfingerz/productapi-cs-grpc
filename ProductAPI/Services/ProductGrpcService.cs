@@ -81,11 +81,7 @@ public class ProductGrpcService : ProductService.ProductServiceBase
 
         if (product is null)
         {
-            throw new RpcException(
-                new Status(
-                    StatusCode.NotFound,
-                    $"Product with ID '{request.Id}' was not found."
-                ));
+            throw new ProductNotFoundException(productId); 
         }
 
         // Store in cache
@@ -152,11 +148,7 @@ public class ProductGrpcService : ProductService.ProductServiceBase
     {
         if (!Guid.TryParse(request.Id, out var productId))
         {
-            throw new RpcException(
-                new Status(
-                    StatusCode.InvalidArgument,
-                    "Invalid product ID format."
-                ));
+            throw new ProductNotFoundException(productId); 
         }
 
         var deleted =
@@ -164,11 +156,7 @@ public class ProductGrpcService : ProductService.ProductServiceBase
 
         if (!deleted)
         {
-            throw new RpcException(
-                new Status(
-                    StatusCode.NotFound,
-                    $"Product with ID '{request.Id}' was not found."
-                ));
+            throw new ProductNotFoundException(productId); 
         }
 
         // Remove from cache

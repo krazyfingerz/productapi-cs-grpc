@@ -43,3 +43,4 @@
 /Users/patrick/Desktop/ProductAPI-cs/ProductAPI/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/patrick/Desktop/ProductAPI-cs/ProductAPI/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
 /Users/patrick/Desktop/ProductAPI-cs/ProductAPI/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
+/Users/patrick/Desktop/ProductAPI-cs/ProductAPI/obj/Debug/net10.0/ProductAPI.sourcelink.json

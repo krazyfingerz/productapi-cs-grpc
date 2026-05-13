@@ -427,3 +427,10 @@
 /Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.IntegrationTests/obj/Debug/net10.0/ProductAPI.IntegrationTests.pdb
 /Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.IntegrationTests/obj/Debug/net10.0/ProductAPI.IntegrationTests.genruntimeconfig.cache
 /Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.IntegrationTests/obj/Debug/net10.0/ref/ProductAPI.IntegrationTests.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.IntegrationTests/bin/Debug/net10.0/AutoMapper.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.IntegrationTests/bin/Debug/net10.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.IntegrationTests/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.IntegrationTests/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.IntegrationTests/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.IntegrationTests/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.IntegrationTests/obj/Debug/net10.0/ProductAPI.IntegrationTests.sourcelink.json

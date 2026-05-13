@@ -116,3 +116,10 @@
 /Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.UnitTests/obj/Debug/net10.0/ProductAPI.UnitTests.pdb
 /Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.UnitTests/obj/Debug/net10.0/ProductAPI.UnitTests.genruntimeconfig.cache
 /Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.UnitTests/obj/Debug/net10.0/ref/ProductAPI.UnitTests.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.UnitTests/bin/Debug/net10.0/AutoMapper.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.UnitTests/bin/Debug/net10.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.UnitTests/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.UnitTests/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.UnitTests/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.UnitTests/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
+/Users/patrick/Desktop/ProductAPI-cs/tests/ProductAPI.UnitTests/obj/Debug/net10.0/ProductAPI.UnitTests.sourcelink.json
