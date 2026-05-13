@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "dgSpecHash": "4+P0NOT0D80=",
+  "success": true,
+  "projectFilePath": "/Users/patrick/Desktop/ProductAPI-cs/ProductAPI/ProductAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/patrick/.nuget/packages/automapper/16.1.1/automapper.16.1.1.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/google.protobuf/3.34.1/google.protobuf.3.34.1.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/grpc.aspnetcore/2.80.0/grpc.aspnetcore.2.80.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/grpc.aspnetcore.server/2.80.0/grpc.aspnetcore.server.2.80.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/grpc.aspnetcore.server.clientfactory/2.80.0/grpc.aspnetcore.server.clientfactory.2.80.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/grpc.aspnetcore.server.reflection/2.80.0/grpc.aspnetcore.server.reflection.2.80.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/grpc.core.api/2.80.0/grpc.core.api.2.80.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/grpc.net.client/2.80.0/grpc.net.client.2.80.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/grpc.net.clientfactory/2.80.0/grpc.net.clientfactory.2.80.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/grpc.net.common/2.80.0/grpc.net.common.2.80.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/grpc.reflection/2.80.0/grpc.reflection.2.80.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/grpc.tools/2.80.0/grpc.tools.2.80.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/microsoft.extensions.caching.memory/10.0.8/microsoft.extensions.caching.memory.10.0.8.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/microsoft.identitymodel.abstractions/8.14.0/microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.14.0/microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/microsoft.identitymodel.logging/8.14.0/microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "/Users/patrick/.nuget/packages/microsoft.identitymodel.tokens/8.14.0/microsoft.identitymodel.tokens.8.14.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.Extensions.Caching.Memory will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "/Users/patrick/Desktop/ProductAPI-cs/ProductAPI/ProductAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/patrick/Desktop/ProductAPI-cs/ProductAPI/ProductAPI.csproj",
+      "libraryId": "Microsoft.Extensions.Caching.Memory",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 16.1.1 was resolved.",
+      "projectPath": "/Users/patrick/Desktop/ProductAPI-cs/ProductAPI/ProductAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/patrick/Desktop/ProductAPI-cs/ProductAPI/ProductAPI.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
