@@ -34,6 +34,7 @@ app.MapGet("/", () => "Communication with gRPC endpoints must be made through a 
 
 app.Run();
 
+// Partial class to allow integration testing to access Program.cs internal members
 public partial class Program
 {
 }
