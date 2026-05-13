@@ -1,0 +1,13 @@
+# IGNORE to speed up image build time and reduce size
+
+bin/
+obj/
+.vs/
+.vscode/
+tests/
+**/*.user
+**/*.suo
+Dockerfile
+docker-compose*
+.git/
+.gitignore

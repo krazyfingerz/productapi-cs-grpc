@@ -7,7 +7,15 @@ using ProductAPI.Interceptors;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Configure Kestrel to support HTTP/2 for gRPC. Docker defaults to HTTP/1.1, build WILL fail.
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(5000, listenOptions =>
+    {
+        listenOptions.Protocols =
+            Microsoft.AspNetCore.Server.Kestrel.Core.HttpProtocols.Http2;
+    });
+});
 builder.Services.AddGrpc(options =>
 {
     options.Interceptors.Add<ExceptionInterceptor>();       // Interceptor to handle exceptions Globally without leaking internal details
@@ -20,7 +28,7 @@ builder.Services.AddSingleton<ExceptionInterceptor>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// HTTP request pipeline.
 app.MapGrpcService<ProductGrpcService>();
 app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
 
